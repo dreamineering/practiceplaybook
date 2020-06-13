@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <!-- hero -->
     <div class="relative bg-white overflow-hidden">
       <div class="max-w-screen-xl mx-auto ">
         <div
@@ -200,6 +201,67 @@
         />
       </div>
     </div>
+    <!-- end of hero -->
+
+    <!-- stats -->
+    <div class="bg-gray-50 pt-12 sm:pt-16">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+            Trusted by developers from over 80 planets
+          </h2>
+          <p class="mt-3 text-xl leading-7 text-gray-500 sm:mt-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat
+            laudantium.
+          </p>
+        </div>
+      </div>
+      <div class="mt-10 pb-12 bg-white sm:pb-16">
+        <div class="relative">
+          <div class="absolute inset-0 h-1/2 bg-gray-50"></div>
+          <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+              <dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+                <div
+                  class="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r"
+                >
+                  <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500" id="item-1">
+                    Pepperoni
+                  </dt>
+                  <dd
+                    class="order-1 text-5xl leading-none font-extrabold text-indigo-600"
+                    aria-describedby="item-1"
+                  >
+                    100%
+                  </dd>
+                </div>
+                <div
+                  class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r"
+                >
+                  <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                    Delivery
+                  </dt>
+                  <dd class="order-1 text-5xl leading-none font-extrabold text-indigo-600">
+                    24/7
+                  </dd>
+                </div>
+                <div
+                  class="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l"
+                >
+                  <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                    Calories
+                  </dt>
+                  <dd class="order-1 text-5xl leading-none font-extrabold text-indigo-600">
+                    100k
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of stats -->
 
     <!-- feature section -->
     <div class="py-16 bg-gray-50 overflow-hidden lg:py-24">
@@ -504,6 +566,513 @@
       </div>
     </div>
     <!-- end of feature section -->
+
+    <!-- cta -->
+    <div class="bg-gray-50">
+      <div
+        class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
+      >
+        <h2
+          class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
+        >
+          Ready to dive in?
+          <br />
+          <span class="text-indigo-600">Start your free trial today. </span>
+        </h2>
+        <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
+          <div class="inline-flex rounded-md shadow">
+            <a
+              href="#"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+            >
+              Get started
+            </a>
+          </div>
+          <div class="ml-3 inline-flex rounded-md shadow">
+            <a
+              href="#"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+            >
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of cta -->
+
+
+    <!-- pricing  -->
+    <div class="bg-gray-100">
+      <div class="pt-12 sm:pt-16 lg:pt-20">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <h2 class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
+              Simple no-tricks pricing
+            </h2>
+            <p class="mt-4 text-xl leading-7 text-gray-600">
+              If you're not satisfied, contact us within the first 14 days and we'll send you a full refund.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
+        <div class="relative">
+          <div class="absolute inset-0 h-1/2 bg-gray-100"></div>
+          <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
+              <div class="bg-white px-6 py-8 lg:flex-shrink-1 lg:p-12">
+                <h3 class="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9">
+                  Lifetime Membership
+                </h3>
+                <p class="mt-6 text-base leading-6 text-gray-500">
+                  Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda.
+                </p>
+                <div class="mt-8">
+                  <div class="flex items-center">
+                    <h4 class="flex-shrink-0 pr-4 bg-white text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
+                      What's included
+                    </h4>
+                    <div class="flex-1 border-t-2 border-gray-200"></div>
+                  </div>
+                  <ul class="mt-8 lg:grid lg:grid-cols-2 lg:col-gap-8 lg:row-gap-5">
+                    <li class="flex items-start lg:col-span-1">
+                      <div class="flex-shrink-0">
+                        <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                      </div>
+                      <p class="ml-3 text-sm leading-5 text-gray-700">
+                        Private forum access
+                      </p>
+                    </li>
+                    <li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div class="flex-shrink-0">
+                        <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                      </div>
+                      <p class="ml-3 text-sm leading-5 text-gray-700">
+                        Member resources
+                      </p>
+                    </li>
+                    <li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div class="flex-shrink-0">
+                        <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                      </div>
+                      <p class="ml-3 text-sm leading-5 text-gray-700">
+                        Entry to annual conference
+                      </p>
+                    </li>
+                    <li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div class="flex-shrink-0">
+                        <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                      </div>
+                      <p class="ml-3 text-sm leading-5 text-gray-700">
+                        Official member t-shirt
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+                <p class="text-lg leading-6 font-medium text-gray-900">
+                  Pay once, own it forever
+                </p>
+                <div class="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-gray-900">
+                  <span>
+                    $349
+                  </span>
+                  <span class="ml-3 text-xl leading-7 font-medium text-gray-500">
+                    USD
+                  </span>
+                </div>
+                <p class="mt-4 text-sm leading-5">
+                  <a href="#" class="font-medium text-gray-500 underline">
+                    Learn about our membership policy
+                  </a>
+                </p>
+                <div class="mt-6">
+                  <div class="rounded-md shadow">
+                    <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                      Get Access
+                    </a>
+                  </div>
+                </div>
+                <div class="mt-4 text-sm leading-5">
+                  <a href="#" class="font-medium text-gray-900">
+                    Get a free sample
+                    <span class="font-normal text-gray-500">
+                      (20MB)
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of pricing -->
+
+
+    <!-- testimonial -->
+    <section class="bg-indigo-800">
+      <div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
+        <div
+          class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16"
+        >
+          <div class="md:flex-shrink-0">
+            <svg
+              fill="none"
+              height="40"
+              viewBox="0 0 105 40"
+              role="img"
+              aria-labelledby="svg-tuple"
+            >
+              <title id="svg-tuple">Tuple</title>
+              <path
+                fill="#B4C6FC"
+                fill-rule="evenodd"
+                d="M18 1L0 7v19.5l6 2V34l18 6V8.5l-6 2V1zM8 29.167L18 32.5V12.608l4-1.333v25.95L8 32.558v-3.391z"
+                clip-rule="evenodd"
+              />
+              <path
+                fill="#B4C6FC"
+                d="M42.9 28V17.45h-3.51v-3.392h11.486v3.393h-3.53V28H42.9zM59.481 28.254c-4.075 0-6.376-2.028-6.376-6.006v-8.19h4.407v8.014c0 1.814.39 2.71 1.97 2.71 1.56 0 1.95-.896 1.95-2.73v-7.994h4.445v8.15c0 4.193-2.496 6.046-6.396 6.046z"
+              />
+              <path
+                fill="#B4C6FC"
+                fill-rule="evenodd"
+                d="M68.965 14.058V28h4.407v-4.543h1.346c3.607 0 5.538-1.638 5.538-4.544v-.078c0-2.983-1.716-4.777-5.733-4.777h-5.558zm4.407 6.435h.916c1.17 0 1.775-.527 1.775-1.56v-.078c0-1.073-.605-1.502-1.755-1.502h-.936v3.14z"
+                clip-rule="evenodd"
+              />
+              <path
+                fill="#B4C6FC"
+                d="M82.563 14.058V28h9.497v-3.412h-5.07v-10.53h-4.427zM94.562 28V14.058h9.906v3.393h-5.499v1.97h4.368v3.1h-4.368v2.086h5.811V28H94.562z"
+              />
+            </svg>
+          </div>
+          <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
+            <div class="relative text-lg leading-7 font-medium text-white md:flex-grow">
+              <svg
+                class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+                fill="currentColor"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
+                />
+              </svg>
+              <p class="relative">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas
+                culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.
+              </p>
+            </div>
+            <footer class="mt-8">
+              <div class="flex">
+                <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                  <img
+                    class="h-12 w-12 rounded-full"
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    alt=""
+                  />
+                </div>
+                <div class="ml-4">
+                  <div class="text-base leading-6 font-medium text-white">Judith Black</div>
+                  <div class="text-base leading-6 font-medium text-indigo-200">CEO, Tuple</div>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+        <div
+          class="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16"
+        >
+          <div class="md:flex-shrink-0">
+            <svg
+              fill="none"
+              height="40"
+              viewBox="0 0 180 40"
+              role="img"
+              aria-labelledby="svg-workcation"
+            >
+              <title id="svg-workcation">Workcation</title>
+              <path
+                fill="#B4C6FC"
+                fill-rule="evenodd"
+                d="M34.746 13.065l7.596 4.385a7.399 7.399 0 00-2.533-4.735h4.066a7.389 7.389 0 00-6.558-2.933l5.518-3.186a7.39 7.39 0 00-6.608.397 7.363 7.363 0 00-2.467 2.316 7.366 7.366 0 00-2.468-2.316 7.388 7.388 0 00-6.607-.397l5.517 3.186a7.39 7.39 0 00-6.557 2.933h4.064a7.402 7.402 0 00-2.53 4.736l7.593-4.385v20.37H27.84V18.193l-5.096 2.942.476-3.922a9.421 9.421 0 01.671-2.525h-3.08L0 19.89l.479 1.915 3.678-.92v12.551H.21v1.974h43.416v-1.974h-8.88V13.065zM17.97 23.569h5.92v9.867h-5.92v-9.867zm-6.907 3.947a1.974 1.974 0 100-3.947 1.974 1.974 0 000 3.947z"
+                clip-rule="evenodd"
+              />
+              <path
+                fill="#B4C6FC"
+                d="M150.544 19.38c1.042 0 1.895-.853 1.895-1.871s-.853-1.895-1.895-1.895c-1.018 0-1.87.877-1.87 1.895a1.89 1.89 0 001.87 1.87zM149.029 32.641h3.055v-11.84h-3.055v11.84zM146.875 20.8v2.937h-2.676v4.926c0 1.279.924 1.302 2.676 1.207v2.771c-4.286.474-5.731-.781-5.731-3.978v-4.926h-2.06v-2.936h2.06v-2.392l3.055-.924v3.316h2.676zM118.495 32.973c2.321 0 4.334-1.232 5.352-3.079l-2.652-1.515c-.474.97-1.492 1.563-2.723 1.563-1.824 0-3.174-1.35-3.174-3.221 0-1.895 1.35-3.244 3.174-3.244 1.207 0 2.226.615 2.699 1.586l2.629-1.54c-.971-1.823-2.984-3.054-5.305-3.054-3.599 0-6.252 2.723-6.252 6.252 0 3.528 2.653 6.252 6.252 6.252z"
+              />
+              <path
+                fill="#B4C6FC"
+                fill-rule="evenodd"
+                d="M134.277 20.8v1.398c-.853-1.066-2.131-1.729-3.86-1.729-3.15 0-5.755 2.723-5.755 6.252 0 3.528 2.605 6.252 5.755 6.252 1.729 0 3.007-.663 3.86-1.729v1.397h3.055v-11.84h-3.055zm-3.292 9.26c-1.871 0-3.268-1.35-3.268-3.34 0-1.988 1.397-3.338 3.268-3.338 1.895 0 3.292 1.35 3.292 3.339 0 1.99-1.397 3.339-3.292 3.339zM166.792 26.72c0 3.53-2.795 6.253-6.276 6.253s-6.252-2.724-6.252-6.252c0-3.529 2.771-6.252 6.252-6.252s6.276 2.723 6.276 6.252zm-9.473 0c0 1.92 1.397 3.269 3.197 3.269 1.824 0 3.221-1.35 3.221-3.268 0-1.918-1.397-3.268-3.221-3.268-1.8 0-3.197 1.35-3.197 3.268z"
+                clip-rule="evenodd"
+              />
+              <path
+                fill="#B4C6FC"
+                d="M175.524 20.469c-1.586 0-2.818.592-3.528 1.658V20.8h-3.055v11.84h3.055v-6.394c0-2.06 1.113-2.936 2.605-2.936 1.373 0 2.344.829 2.344 2.439v6.891H180v-7.27c0-3.15-1.966-4.902-4.476-4.902zM59.267 32.642h3.718L66.087 21.7l3.126 10.94h3.718l4.642-16.576h-3.434l-3.173 12.29-3.481-12.29H64.69l-3.457 12.29-3.174-12.29h-3.433l4.641 16.576z"
+              />
+              <path
+                fill="#B4C6FC"
+                fill-rule="evenodd"
+                d="M83.551 32.973c3.482 0 6.276-2.723 6.276-6.252 0-3.528-2.794-6.252-6.276-6.252-3.48 0-6.252 2.724-6.252 6.252 0 3.529 2.771 6.252 6.252 6.252zm0-2.984c-1.8 0-3.197-1.35-3.197-3.268 0-1.918 1.398-3.268 3.197-3.268 1.824 0 3.221 1.35 3.221 3.268 0 1.918-1.397 3.268-3.22 3.268z"
+                clip-rule="evenodd"
+              />
+              <path
+                fill="#B4C6FC"
+                d="M95.031 20.8v2.037c.616-1.61 2.108-2.273 3.6-2.273v3.41c-1.587-.19-3.6.521-3.6 3.008v5.66h-3.055V20.8h3.055zM111.334 32.642l-4.902-5.992 4.76-5.85h-3.647l-4.073 5.21v-9.946h-3.055v16.578h3.055v-5.376l4.31 5.376h3.552z"
+              />
+            </svg>
+          </div>
+          <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
+            <div class="relative text-lg leading-7 font-medium text-white md:flex-grow">
+              <svg
+                class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+                fill="currentColor"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
+                />
+              </svg>
+              <p class="relative">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas
+                culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.
+                Nemo expedita voluptas culpa sapiente alias molestiae.
+              </p>
+            </div>
+            <footer class="mt-8">
+              <div class="flex">
+                <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                  <img
+                    class="h-12 w-12 rounded-full"
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    alt=""
+                  />
+                </div>
+                <div class="ml-4">
+                  <div class="text-base leading-6 font-medium text-white">Judith Black</div>
+                  <div class="text-base leading-6 font-medium text-indigo-200">CEO, Tuple</div>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <!-- end of testimonial -->
+
+    <!-- footer -->
+    <div class="bg-gray-800">
+      <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+          <div class="grid grid-cols-2 gap-8 xl:col-span-2">
+            <div class="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <h4 class="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+                  Solutions
+                </h4>
+                <ul class="mt-4">
+                  <li>
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Marketing
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Analytics
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Commerce
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Insights
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mt-12 md:mt-0">
+                <h4 class="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+                  Support
+                </h4>
+                <ul class="mt-4">
+                  <li>
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Pricing
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Documentation
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Guides
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      API Status
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <h4 class="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+                  Company
+                </h4>
+                <ul class="mt-4">
+                  <li>
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      About
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Blog
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Jobs
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Press
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Partners
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mt-12 md:mt-0">
+                <h4 class="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+                  Legal
+                </h4>
+                <ul class="mt-4">
+                  <li>
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Claim
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Privacy
+                    </a>
+                  </li>
+                  <li class="mt-4">
+                    <a href="#" class="text-base leading-6 text-gray-300 hover:text-white">
+                      Terms
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 xl:mt-0">
+            <h4 class="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+              Subscribe to our newsletter
+            </h4>
+            <p class="mt-4 text-gray-300 text-base leading-6">
+              The latest news, articles, and resources, sent to your inbox weekly.
+            </p>
+            <form class="mt-4 sm:flex sm:max-w-md">
+              <input
+                aria-label="Email address"
+                type="email"
+                required
+                class="appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
+                placeholder="Enter your email"
+              />
+              <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+                <button
+                  class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400 transition duration-150 ease-in-out"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
+          <div class="flex md:order-2">
+            <a href="#" class="text-gray-400 hover:text-gray-300">
+              <span class="sr-only">Facebook </span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <a href="#" class="ml-6 text-gray-400 hover:text-gray-300">
+              <span class="sr-only">Instagram </span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  fill-rule="evenodd"
+                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <a href="#" class="ml-6 text-gray-400 hover:text-gray-300">
+              <span class="sr-only">Twitter </span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                />
+              </svg>
+            </a>
+            <a href="#" class="ml-6 text-gray-400 hover:text-gray-300">
+              <span class="sr-only">GitHub </span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <a href="#" class="ml-6 text-gray-400 hover:text-gray-300">
+              <span class="sr-only">Dribbble </span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+          <p class="mt-8 text-base leading-6 text-gray-400 md:mt-0 md:order-1">
+            &copy; 2020 Workflow, Inc. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end of footer  -->
   </Layout>
 </template>
 
@@ -560,7 +1129,7 @@ export default {
 </script>
 
 <style>
-.home-links a {
+/* .home-links a {
   margin-right: 1rem;
-}
+} */
 </style>
